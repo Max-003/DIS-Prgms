@@ -8,8 +8,7 @@ class first extends JFrame implements ActionListener {
 	public JButton b,b1;
 	public JLabel l;
 	public  JLabel l1,lmsg1,lmsg2;
-	first()
-	{
+	first(){
 		b=new JButton(" Upload");
 		l=new JLabel(" Uplaod a file : ");
 		lmsg1=new JLabel("");
