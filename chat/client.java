@@ -12,7 +12,7 @@ class client{
 		System.out.println("Connecting to server");
 		System.out.println("Client connected to server");
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Hey\t"+name+" u can start chating");
+		System.out.println("Hey "+name+" u can start chating");
 		while(true){
 			Socket s=new Socket("localhost",1010);
 			String n=br.readLine();
