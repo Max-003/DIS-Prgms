@@ -19,7 +19,7 @@ class A implements Runnable{
 			String mfc=new String(data);
 			mfc=mfc.trim();
 			System.out.println(mfc);
-			System.out.println("Hey"+name+"u can start chating");
+			System.out.println("Hey u can start chating");
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 			String n=br.readLine();
 			OutputStream os=s.getOutputStream();
