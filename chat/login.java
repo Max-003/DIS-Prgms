@@ -46,7 +46,7 @@ class login implements ActionListener {
 		try{
 			str = this.tf.getText();
 			this.frame1.dispose();
-			Client1 c1= new Client1(str);
+			client c1= new client(str);
 			c1.main(null);
 		}
 		catch(Exception localIOException){
