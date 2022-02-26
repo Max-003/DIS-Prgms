@@ -4,8 +4,8 @@ import java.net.MalformedURLException:
 import java.net.URL:
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.xml.namespace. QName;
-import javax.xml.ws .Service;
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
 public class RPC_HelloWorld {
 	public static void main(String[] args) {
 		try {
