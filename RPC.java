@@ -27,7 +27,7 @@ public class RPC_HelloWorld {
 
 //HelloWorld.java
 package rpe helloworld;
-import javax.jus. WebMethod;
+import javax.jus.WebMethod;
 import javax.jus.WebService:
 import javax.jus.soap.SOAFBinding:
 import javax.jws.soap.SOAFBinding.Style:
